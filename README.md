@@ -1,2 +1,2 @@
 # Labs_front
-<h1>Repositório da diciplina Front End</h1>
+<h1>Repositório da disciplina Front End</h1>
