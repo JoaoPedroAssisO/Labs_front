@@ -7,8 +7,6 @@
 body {
     color: var(--cor-base);
     font-family: "Roboto Condensed", sans-serif;
-    margin: auto;
-    width: 940px;
 }
 
 h1 {
@@ -52,7 +50,7 @@ p {
     margin: 30px 0;
     padding: 30px 0;
 }
-#rodape img{
+.rodape img{
     margin-right: 30px;
     vertical-align: middle;
     width: 94px;
@@ -62,4 +60,9 @@ p {
     float: right;
     margin: 0 0 10px 10px;
     
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
 }
