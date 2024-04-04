@@ -6,6 +6,15 @@
     padding-bottom: 25px;
     text-align: right;
     width: 195px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.menu-opcoes{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
 
 .menu-opcoes ul {
@@ -29,4 +38,8 @@ body {
 .container {
     margin: 0 auto;
     width: 940px;
+}
+
+header{
+    position: relative;
 }
