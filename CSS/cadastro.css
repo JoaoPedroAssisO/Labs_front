@@ -39,11 +39,27 @@ fieldset legend {
     padding: 5px;
 }
 
-.grid-button-container input[type=submit]{
+.grid-button-container input[type=submit] {
     background-color: blue;
 
 }
 
-.grid-button-container input[type=reset]{
+.grid-button-container input[type=reset] {
     background-color: red;
+}
+
+.grid-header-container {
+    display: grid;
+    grid-template-areas: 'top-left top-right';
+    border-bottom: rgb(165, 155, 141) 5px solid;
+    margin-bottom: 5px;
+}
+
+.top-right {
+    grid-area: top-right;
+    justify-self: right;
+}
+
+.top-left {
+    grid-area: top-left;
 }
