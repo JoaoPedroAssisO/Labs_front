@@ -5,27 +5,12 @@ html {
     box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
     box-sizing: inherit;
 }
 
 /* Reset de margens e preenchimentos */
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ol,
-ul,
-figure,
-blockquote,
-dl,
-dd {
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, figure, blockquote, dl, dd {
     margin: 0;
     padding: 0;
 }
@@ -37,8 +22,7 @@ html {
 }
 
 /* Reset de lista */
-ol,
-ul {
+ol, ul {
     list-style: none;
 }
 
@@ -49,12 +33,7 @@ a {
 }
 
 /* Reset de cabeçalhos */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-size: inherit;
     font-weight: inherit;
 }
@@ -65,20 +44,12 @@ p {
 }
 
 /* Definindo largura máxima padrão */
-img,
-video,
-iframe,
-object,
-embed,
-audio {
+img, video, iframe, object, embed, audio {
     max-width: 100%;
 }
 
 /* Definindo largura máxima para elementos de formulário */
-input,
-textarea,
-select,
-button {
+input, textarea, select, button {
     max-width: 100%;
 }
 
@@ -88,9 +59,7 @@ button {
 }
 
 /* Resete a borda do campo do formulário para garantir que ele se alinhe corretamente */
-input,
-textarea,
-select {
+input, textarea, select {
     border: 0;
     border-radius: 0;
 }
