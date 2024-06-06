@@ -12,13 +12,12 @@ body {
 
 fieldset {
     margin-bottom: 10px;
-    background-color: darkgray;
+    background-color: antiquewhite;
     border-radius: 5px;
 }
 
-fieldset input,
-select {
-    font-size: auto;
+fieldset input, select {
+    font-size: medium;
 }
 
 fieldset legend {
@@ -41,12 +40,11 @@ fieldset legend {
 
 .grid-button-container input[type=submit] {
     background-color: blue;
-
-}
+} 
 
 .grid-button-container input[type=reset] {
-    background-color: red;
-}
+    background-color: orangered;
+} 
 
 .grid-header-container {
     display: grid;
